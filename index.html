@@ -1,516 +1,614 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
-      rel="stylesheet"
-    />
+<html lang="zxx">
 
-    <title>Portfolio</title>
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css" />
-    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
-    <link rel="stylesheet" href="assets/css/owl.css" />
-    <link rel="stylesheet" href="assets/css/lightbox.css" />
-  </head>
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
-  <body>
-    <div id="page-wraper">
-      <!-- Sidebar Menu -->
-      <div class="responsive-nav">
-        <i class="fa fa-bars" id="menu-toggle"></i>
-        <div id="menu" class="menu">
-          <i class="fa fa-times" id="menu-close"></i>
-          <div class="container">
-            <div class="image">
-              <a href="#"><img src="img/img2.jpg" alt="" /></a>
-            </div>
-            <div class="author-content">
-              <h4>Asuka Kawaguchi</h4>
-              <!-- <span>Frondend Developer</span>-->
-            </div>
-            <nav class="main-nav" role="navigation">
-              <ul class="main-menu">
-                <li><a href="#section1">About Me</a></li>
-                <li><a href="#section2">What I’m good at</a></li>
-                <li><a href="#section3">My Work</a></li>
-                <li><a href="#section4">Contact Me</a></li>
-              </ul>
-            </nav>
-            <div class="social-network">
-              <ul class="soial-icons">
-                <!--<li>
-                  <a href="https://fb.com/templatemo"
-                    ><i class="fa fa-facebook"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-twitter"></i></a>
-                </li>-->
-                <li>
-                  <a href="https://www.linkedin.com/in/asuka-kawaguchi-34bb27174/"><i class="fa fa-linkedin"></i></a>
-                </li>
-                 <!--<li>
-                  <a href="#"><i class="fa fa-dribbble"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-rss"></i></a>
-                </li>
-              </ul>-->
-            </div>
-            <div class="copyright-text">
-              <p>Copyright 2021 Asuka Kawaguchi</p>
+</head>
+
+<body>
+  
+
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <!--
+    <a class="navbar-brand font-tertiary h3" href="index.html"><img src="images/logo.png" alt="Myself"></a>
+    -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutscroll">about</a>
+        </li>
+        <!--
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        -->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolioscroll">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contactscroll">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- hero area -->
+<section class="hero-area bg-primary" id="parallax">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-11 mx-auto">
+        <h1 class="text-white font-tertiary">Hi! I’m <br> Asuka <br> </h1>
+      </div>
+    </div>
+  </div>
+  <div class="layer-bg w-100">
+    <img class="img-fluid w-100" src="images/illustrations/leaf-bg.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l2">
+    <img src="images/illustrations/dots-cyan.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l3">
+    <img src="images/illustrations/leaf-orange.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l4">
+    <img src="images/illustrations/dots-orange.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l5">
+    <img src="images/illustrations/leaf-yellow.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l6">
+    <img src="images/illustrations/leaf-cyan.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l7">
+    <img src="images/illustrations/dots-group-orange.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l8">
+    <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape">
+  </div>
+  <div class="layer" id="l9">
+    <img src="images/illustrations/leaf-cyan-2.png" alt="bg-shape">
+  </div>
+  <!-- social icon
+  <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
+    <li class="mb-3"><a class="text-white" href="#"><i class="ti-facebook"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="#"><i class="ti-instagram"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="#"><i class="ti-dribbble"></i></a></li>
+    <li class="mb-3"><a class="text-white" href="#"><i class="ti-twitter"></i></a></li>
+  </ul>
+ -->
+</section>
+<!-- /hero area -->
+
+<!-- about -->
+<section class="section" id= "aboutscroll">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <p class="font-secondary paragraph-lg text-dark"><br>Hello! <br>Experienced in the production, media, and marketing industry.<br>Strong skills as a video editing and motion design.<br>
+          Currently working towards a Master's degree in Digital Learning Games at Tallinn University.</p>
+        <!--
+          <a href="about.html" class="btn btn-transparent">know more</a>
+          -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /about -->
+
+<!-- skills -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Skills</h2>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+        <div class="card shadow text-center">
+          <div class="position-relative rounded-top progress-wrapper" data-color="#fdb157">
+            <div class="wave" data-progress="70%"></div>
+          </div>
+          <div class="card-footer bg-white">
+            <h4 class="card-title">HTML/CSS (70%)</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+        <div class="card shadow text-center">
+          <div class="position-relative rounded-top progress-wrapper" data-color="#9473e6">
+            <div class="wave" data-progress="60%"></div>
+          </div>
+          <div class="card-footer bg-white">
+            <h4 class="card-title">JavaScript (50%)</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+        <div class="card shadow text-center">
+          <div class="position-relative rounded-top progress-wrapper" data-color="#bdecf6">
+            <div class="wave" data-progress="90%"></div>
+          </div>
+          <div class="card-footer bg-white">
+            <h4 class="card-title">Photoshop/Illustrator (90%)</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
+        <div class="card shadow text-center">
+          <div class="position-relative rounded-top progress-wrapper" data-color="#ffbcaa">
+            <div class="wave" data-progress="70%"></div>
+          </div>
+          <div class="card-footer bg-white">
+            <h4 class="card-title">After Effects (70%)</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /skills -->
+
+<!-- experience -->
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Experience</h2>
+      </div>
+      <div class="col-lg-3 col-md-4 text-center">
+        <img src="images/experience/icon-1.png" alt="icon">
+        <p class="mb-0">2017 -</p>
+        <h4>Video editor</h4>
+        <!--
+        <h6 class="text-light">WEBEX</h6>
+        -->
+      </div>
+      <div class="col-lg-3 col-md-4 text-center">
+        <img src="images/experience/icon-2.png" alt="icon">
+        <p class="mb-0">2017 -</p>
+        <h4>Motion designer</h4>
+        <!--
+        <h6 class="text-light">AUGMEDIX</h6>
+        -->
+      </div>
+      <div class="col-lg-3 col-md-4 text-center">
+        <img src="images/experience/icon-3.png" alt="icon">
+        <p class="mb-0">2021 -</p>
+        <h4>IT traineer <br>(Frontend developer)</h4>
+        <!--
+        <h6 class="text-light">THEMEFISHER</h6>
+        -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ./experience -->
+
+<!-- education -->
+<section class="section position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">2018-2021</p>
+            <h4>Masters in Digital Learning Games</h4>
+            <p class="mb-0 text-light">Tallinn University</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">2019</p>
+            <h4>Masters in Game Studies</h4>
+            <p class="mb-0 text-light">Tampere University (Exchange study)</p>
+          </div>
+        </div>
+      </div>
+      <!--
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">2000</p>
+            <h4>Higher Secondary Certificat</h4>
+            <p class="mb-0 text-light">Cardiff School</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-80">
+        <div class="d-flex">
+          <div class="mr-lg-5 mr-3">
+            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+          </div>
+          <div>
+            <p class="text-dark mb-1">1998</p>
+            <h4>Secondary School Certificate</h4>
+            <p class="mb-0 text-light">Cardiff School</p>
+          </div>
+        </div>
+      </div>
+      -->
+    </div>
+  </div>
+  <!-- bg image -->
+  <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/education-bg.png" alt="bg-image">
+</section>
+<!-- /education -->
+
+<!-- services 
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Services</h2>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-palette icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4">UI Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card active-bg-primary hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-vector icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4">UX Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body text-center px-4 py-5">
+            <i class="ti-panel icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4">Interaction Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+/services -->
+
+<!-- portfolio -->
+<section class="section" id= "portfolioscroll">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Portfolio</h2>
+      </div>
+    </div>
+    <div class="row shuffle-wrapper">
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="img/viemo.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://vimeo.com/441825788">view project</a>
             </div>
           </div>
         </div>
       </div>
-
-      <section class="section about-me" data-section="section1">
-        <div class="container">
-          <div class="section-heading">
-            <h2>About Me</h2>
-            <div class="line-dec"></div>
-            <span
-              >Hello, My name is Asuka!<br>
-              Experienced in the production, media, and marketing industry.<br>
-              Currently working towards a Master's degree in Digital Learning Games at Tallinn University.</span>
-          </div>
-          <div class="left-image-post">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="left-image">
-                  <img src="img/img4.png" alt="" />
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="right-text">
-                  <h4>My Career</h4>
-                  <ul>
-                    <li>_Experienced in the production, media, and marketing industry.</li>
-                    <li>_Strong skills as a video director, motion designer and writer.</li>
-                    <li>_Fluent in TV/ Film/ Web advertising platforms.</li>
-                    <li>_Currently working towards a Master's degree in Digital Learning Games at Tallinn University in Estonia, 
-                        focusing on gamification and the VR & AR gaming industry. </li>
-                  </ul>
-                  <!--<div class="white-button">
-                    <a href="#">Read More</a>
-                  </div>-->
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--<div class="right-image-post">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="left-text">
-                  <h4>Sed sagittis rhoncus velit</h4>
-                  <p>
-                    Pellentesque habitant morbi tristique senectus et netus et
-                    malesuada fames ac turpis egestas. Vestibulum fermentum
-                    eleifend nibh, vitae sodales elit finibus pretium.
-                    Suspendisse potenti. Ut sollicitudin risus a sollicitudin
-                    semper.
-                  </p>
-                  <div class="white-button">
-                    <a href="#">Read More</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="right-image">
-                  <img src="assets/images/right-image.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>-->
-        </div>
-      </section>
-
-      <section class="section my-services" data-section="section2">
-        <div class="container">
-          <div class="section-heading">
-            <h2>What I’m good at?</h2>
-              <!--<div class="line-dec"></div>
-            <span
-              >Curabitur leo felis, rutrum vitae varius eu, malesuada a tortor.
-              Vestibulum congue leo et tellus aliquam, eu viverra nulla semper.
-              Nullam eu faucibus diam. Donec eget massa ante.</span
-            >
-          </div>-->
-          <div class="row">
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="first-service-icon service-icon"></div>
-                <h4>HTML5 &amp; CSS3</h4>
-                <!--<p>
-                  Phasellus non convallis dolor. Integer tempor hendrerit arcu
-                  at bibendum. Sed ac ante non metus vehicula congue quis eget
-                  eros.
-                </p>-->
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="second-service-icon service-icon"></div>
-                <h4>Java Script</h4>
-               <!--<p>
-                  Proin lacus massa, eleifend sed fermentum in, dignissim vel
-                  metus. Nunc accumsan leo nec felis porttitor, ultricies
-                  faucibus purus mollis.
-                </p>-->
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="third-service-icon service-icon"></div>
-                <h4>Adobe Software</h4>
-                <!--<p>
-                  Integer suscipit condimentum aliquet. Nam quis risus metus.
-                  Nullam faucibus quam eget arcu pretium tincidunt. Nam libero
-                  dui.
-                </p>-->
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="service-item">
-                <div class="fourth-service-icon service-icon"></div>
-                <h4>Creative Ideas</h4>
-                <!--<p>
-                  Vivamus et dui a massa venenatis fringilla. Proin lacus massa,
-                  eleifend sed fermentum in, dignissim vel metus. Nunc accumsan
-                  leo nec felis porttitor.
-                </p>-->
-              </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="img/fixin2.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://gamejolt.com/games/fixin/466955">view project</a>
             </div>
           </div>
         </div>
-      </section>
-
-      <section class="section my-work" data-section="section3">
-        <div class="container">
-          <div class="section-heading">
-            <h2>My Work</h2>
-            <!--<div class="line-dec"></div>
-            <span
-              >Aenean sollicitudin ex mauris, lobortis lobortis diam euismod sit
-              amet. Duis ac elit vulputate, lobortis arcu quis, vehicula
-              mauris.</span>
-          </div>-->
-          <div class="row">
-            <div class="isotope-wrapper">
-              <!--<form class="isotope-toolbar">
-                <label
-                  ><input
-                    type="radio"
-                    data-type="*"
-                    checked=""
-                    name="isotope-filter"
-                  />
-                  <span>all</span></label
-                >
-                <label
-                  ><input
-                    type="radio"
-                    data-type="people"
-                    name="isotope-filter"
-                  />
-                  <span>people</span></label
-                >
-                <label
-                  ><input
-                    type="radio"
-                    data-type="nature"
-                    name="isotope-filter"
-                  />
-                  <span>nature</span></label
-                >
-                <label
-                  ><input
-                    type="radio"
-                    data-type="animals"
-                    name="isotope-filter"
-                  />
-                  <span>animals</span></label
-                >
-              </form>-->
-
-              <div class="isotope-box">
-                <div class="isotope-item" data-type="nature">
-                  <figure class="snip1321">
-                    <img
-                      src="img/sakura.png"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="img/sakura.png"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Pottery art website</h4>
-                      <span>HTML/CSS/JS</span>
-                    </figcaption>
-                  </figure>
-                </div>
-
-                <div class="isotope-item" data-type="people">
-                  <figure class="snip1321">
-                    <img
-                      src="img/viemo.png"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="img/viemo.png"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Motion Graphic</h4>
-                      <span>After Effects/Illustrator</span>
-                    </figcaption>
-                  </figure>
-                </div>
-
-                <div class="isotope-item" data-type="animals">
-                  <figure class="snip1321">
-                    <img
-                      src="img/pinpongame.png"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="img/pinpongame.png"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Pinball Game</h4>
-                      <span>photoshop/Unity/C#</span>
-                    </figcaption>
-                  </figure>
-                </div>
-
-                <div class="isotope-item" data-type="people">
-                  <figure class="snip1321">
-                    <img
-                      src="img/number game.png"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="img/number game.png"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Guess Number Game</h4>
-                      <span>HTML/CSS/JS</span>
-                    </figcaption>
-                  </figure>
-                </div>
-
-                <div class="isotope-item" data-type="nature">
-                  <figure class="snip1321">
-                    <img
-                      src="img/fixin2.png"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="img/fixin2.png"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Game UI</h4>
-                      <span>Illustrator/Unity</span>
-                    </figcaption>
-                  </figure>
-                </div>
-
-                 <!--<div class="isotope-item" data-type="animals">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/portfolio-06.jpg"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/portfolio-06.jpg"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Awesome Sixth</h4>
-                      <span>Donec eget massa ante</span>
-                    </figcaption>
-                  </figure>
-                </div>-->
-              </div>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="img/number game.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://askwx.github.io/numberguess/">view project</a>
             </div>
           </div>
         </div>
-      </section>
-
-      <section class="section contact-me" data-section="section4">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Contact Me</h2>
-            <!--<div class="line-dec"></div>
-            <span
-              >Fusce eget nibh nec justo interdum condimentum. Morbi justo ex,
-              efficitur at ante ac, tincidunt maximus ligula. Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit.</span
-            >
-          </div> -->
-
-          <footer id = "contact">
-            <a href = "mailto:asuka@tlu.ee" class = "button">MAIL</a>
-        </footer>
-
-
-
-
-          <!--<div class="row">
-            <div class="right-content">
-              <div class="container">
-                <form id="contact" action="" method="post">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <fieldset>
-                        <input
-                          name="name"
-                          type="text"
-                          class="form-control"
-                          id="name"
-                          placeholder="Your name..."
-                          required=""
-                        />
-                      </fieldset>
-                    </div>
-                    <div class="col-md-6">
-                      <fieldset>
-                        <input
-                          name="email"
-                          type="text"
-                          class="form-control"
-                          id="email"
-                          placeholder="Your email..."
-                          required=""
-                        />
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <input
-                          name="subject"
-                          type="text"
-                          class="form-control"
-                          id="subject"
-                          placeholder="Subject..."
-                          required=""
-                        />
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <textarea
-                          name="message"
-                          rows="6"
-                          class="form-control"
-                          id="message"
-                          placeholder="Your message..."
-                          required=""
-                        ></textarea>
-                      </fieldset>
-                    </div>
-                    <div class="col-md-12">
-                      <fieldset>
-                        <button type="submit" id="form-submit" class="button">
-                          Send Message
-                        </button>
-                      </fieldset>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div> -->
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="img/sakura.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="https://askwx.github.io/sakuraweb/">view project</a>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="img/pinpongame.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="project-single.html">view project</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+</section>
+<!-- /portfolio -->
 
-    <!-- Scripts -->
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- testimonial 
+<section class="section bg-primary position-relative testimonial-bg-shapes">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title text-white mb-5">Testimonials</h2>
+      </div>
+      <div class="col-lg-10 mx-auto testimonial-slider">
+        <!-- slider-item 
+        <div class="text-center testimonial-content">
+          <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+          <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation
+              ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <img class="img-fluid rounded-circle mb-4 d-inline-block" src="images/testimonial/client-1.png"
+            alt="client-image">
+          <h4 class="text-white">Jesica Gomez</h4>
+          <h6 class="text-light mb-4">CEO, Funder</h6>
+        </div>
+        <!-- slider-item 
+        <div class="text-center testimonial-content">
+          <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+          <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation
+              ullamco
+              laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in
+            voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur.</p>
+          <img class="img-fluid rounded-circle mb-4 d-inline-block" src="images/testimonial/client-1.png"
+            alt="client-image">
+          <h4 class="text-white">Jesica Gomez</h4>
+          <h6 class="text-light mb-4">CEO, Funder</h6>
+        </div>
+        <!-- slider-item 
+        <div class="text-center testimonial-content">
+          <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
+          <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation
+              ullamco
+              laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in
+            voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur.</p>
+          <img class="img-fluid rounded-circle mb-4 d-inline-block" src="images/testimonial/client-1.png"
+            alt="client-image">
+          <h4 class="text-white">Jesica Gomez</h4>
+          <h6 class="text-light mb-4">CEO, Funder</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- bg shapes 
+  <img src="images/backgrounds/map.png" alt="map" class="img-fluid bg-map">
+  <img src="images/illustrations/dots-group-v.png" alt="bg-shape" class="img-fluid bg-shape-1">
+  <img src="images/illustrations/leaf-orange.png" alt="bg-shape" class="img-fluid bg-shape-2">
+  <img src="images/illustrations/dots-group-sm.png" alt="bg-shape" class="img-fluid bg-shape-3">
+  <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape" class="img-fluid bg-shape-4">
+  <img src="images/illustrations/leaf-cyan.png" alt="bg-shape" class="img-fluid bg-shape-5">
+</section>
+<!-- /testimonial -->
 
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script>
-      //according to loftblog tut
-      $(".main-menu li:first").addClass("active");
 
-      var showSection = function showSection(section, isAnimate) {
-        var direction = section.replace(/#/, ""),
-          reqSection = $(".section").filter(
-            '[data-section="' + direction + '"]'
-          ),
-          reqSectionPos = reqSection.offset().top - 0;
+<!-- client logo slider 
+<section class="section pb-0">
+  <div class="container">
+    <div class="client-logo-slider d-flex align-items-center">
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-1.png" alt="client-logo"></a>
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-2.png" alt="client-logo"></a>
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-3.png" alt="client-logo"></a>
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-4.png" alt="client-logo"></a>
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-5.png" alt="client-logo"></a>
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-1.png" alt="client-logo"></a>
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-2.png" alt="client-logo"></a>
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-3.png" alt="client-logo"></a>
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-4.png" alt="client-logo"></a>
+      <a href="#" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
+          src="images/clients-logo/client-logo-5.png" alt="client-logo"></a>
+    </div>
+  </div>
+</section>
+/client logo slider -->
 
-        if (isAnimate) {
-          $("body, html").animate(
-            {
-              scrollTop: reqSectionPos
-            },
-            800
-          );
-        } else {
-          $("body, html").scrollTop(reqSectionPos);
-        }
-      };
+<!-- blog 
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Blogs</h2>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/blog/post-3.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
+            </h4>
+            <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et
+              dolore magna aliqua.</p>
+            <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/blog/post-4.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
+            </h4>
+            <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et
+              dolore magna aliqua.</p>
+            <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <article class="card shadow">
+          <img class="rounded card-img-top" src="images/blog/post-2.jpg" alt="post-thumb">
+          <div class="card-body">
+            <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
+            </h4>
+            <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et
+              dolore magna aliqua.</p>
+            <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+ /blog -->
 
-      var checkSection = function checkSection() {
-        $(".section").each(function() {
-          var $this = $(this),
-            topEdge = $this.offset().top - 80,
-            bottomEdge = topEdge + $this.height(),
-            wScroll = $(window).scrollTop();
-          if (topEdge < wScroll && bottomEdge > wScroll) {
-            var currentId = $this.data("section"),
-              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
-            reqLink
-              .closest("li")
-              .addClass("active")
-              .siblings()
-              .removeClass("active");
-          }
-        });
-      };
+<!-- contact -->
+<section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
+  <div class="container" id = "contactscroll">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Contact Info</h2>
+      </div>
+      <div class="col-lg-8 mx-auto">
 
-      $(".main-menu").on("click", "a", function(e) {
-        e.preventDefault();
-        showSection($(this).attr("href"), true);
-      });
+        
+        <div class="bg-white rounded text-center p-5 shadow-down">
+          <h5>Asuka Kawaguchi<br>asukawaguchi01@gamil.com</h5>
 
-      $(window).scroll(function() {
-        checkSection();
-      });
-    </script>
-  </body>
+          
+          
+          <!-- 
+          <h4 class="mb-80">Contact Form</h4>
+          <form action="#" class="row">
+            <div class="col-md-6">
+              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4">
+            </div>
+            <div class="col-12">
+              <textarea name="message" id="message" class="form-control px-0 mb-4"
+                placeholder="Type Message Here"></textarea>
+            </div>
+            <div class="col-lg-6 col-10 mx-auto">
+              <button class="btn btn-primary w-100">send</button>
+            </div>
+          </form>
+          -->
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- /contact -->
+
+<!-- footer 
+<footer class="bg-dark footer-section">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-light">Email</h5>
+          <p class="text-white paragraph-lg font-secondary">steve.fruits@email.com</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Phone</h5>
+          <p class="text-white paragraph-lg font-secondary">+880 2544 658 256</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Address</h5>
+          <p class="text-white paragraph-lg font-secondary">125/A, CA Commercial Area, California, USA</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="border-top text-center border-dark py-5">
+    <p class="mb-0 text-light">Copyright ©<script>
+        var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)
+      </script> a theme by <a href="https://themefisher.com">themefisher.com</a></p>
+  </div>
+</footer>
+ /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="plugins/shuffle/shuffle.min.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
 </html>
